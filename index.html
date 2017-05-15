@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpack App</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Components</title>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,12 +12,17 @@
         ga('create', 'UA-96120219-2', 'auto');
         ga('send', 'pageview');
     </script>
-    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[0] %>">
 </head>
 <body>
 <div id="app">
+
+    <!--<p>-->
+        <!--<router-link to="/index">Go to Foo</router-link>-->
+        <!--<router-link to="/p2">Go to Bar</router-link>-->
+    <!--</p>-->
+
     <router-view></router-view>
 </div>
-<script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[0] %>"></script>
+<script src="dist/build.js"></script>
 </body>
 </html>

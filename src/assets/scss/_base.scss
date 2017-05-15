@@ -1,0 +1,32 @@
+body {
+  min-width: 1200px;
+  overflow-x: scroll;
+}
+
+img {
+  display: block;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+   .main-section-wrapper {
+    position: relative;
+    width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.index-bg-color {
+  background-color: #8dc73f;
+}
+
+.p2-bg-color {
+  background-color: #F7941D;
+}
+
