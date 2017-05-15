@@ -1,6 +1,7 @@
 {
   "name": "joint_promotion",
   "description": "A Vue.js project",
+  "version": "1.0.0",
   "author": "franklion <franklion1227@gmail.com>",
   "private": true,
   "scripts": {
